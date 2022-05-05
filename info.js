@@ -13,7 +13,7 @@ let info = {
   links: {
     linkedin: "https://www.linkedin.com/in/matias-scheinkman-751a5267/?locale=en_US",
     github: "https://github.com/scheinkman123",
-    resume: "https://scheinkman123.github.io/portfolio/archives/cv-matias.pdf",
+    resume: "https://scheinkman123.github.io/portfolio-html/archives/cv-matias.pdf",
   },
   education: [
     {
