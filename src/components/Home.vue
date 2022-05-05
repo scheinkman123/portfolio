@@ -54,7 +54,7 @@
 <script>
 import info from "../../info";
 
-// import Wave from "./helpers/Wave";
+// import wave from "./helpers/Wave";
 
 export default {
   name: "Home-el",
