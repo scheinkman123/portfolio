@@ -147,4 +147,10 @@ nav {
   background-color: #ffffff7e;
   backdrop-filter: blur(12px);
 }
+
+@media only screen and (max-width: 483px) {
+  .navbar-toggler {
+    margin-left: -8px;
+  }
+}
 </style>

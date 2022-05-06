@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "<br>I’m Matias and I am a front-end developer.<br>Studied sound engineering, musical production and now I design & develop smart and goodlooking front end applications.<br><br> I am creative, proactive and restless.<br>Beach lover 🏖️, cooking enthusiast 👨‍🍳 and sport amateur 🏃<br><br>My stack core is composed by HTML5, CSS3 and JavaScript. But I also use some of the main frameworks and libraries such as Bootstrap, Vue.js.",
+    "<br>I’m Matias and I am a front-end developer.<br>Studied sound engineering, musical production and now I design & develop smart and goodlooking front-end applications.<br><br> I am creative, proactive and restless.<br>Beach lover 🏖️, cooking enthusiast 👨‍🍳 and sport amateur 🏃<br><br>My stack core is composed by HTML5, CSS3 and JavaScript. But I also use some of the main frameworks and libraries such as Bootstrap, Vue.js.",
   links: {
     linkedin: "https://www.linkedin.com/in/matias-scheinkman-751a5267/?locale=en_US",
     github: "https://github.com/scheinkman123",

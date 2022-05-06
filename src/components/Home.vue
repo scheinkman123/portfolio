@@ -22,7 +22,7 @@
           <div>
             <p v-html="description"></p>
           </div>
-          <div class="text-center pb-4">
+          <div class="text-center m-2 pb-4">
             <button
               class="btn btn-outline-secondary mx-2 "
               @click="open('linkedin')"
@@ -105,7 +105,6 @@ img {
   max-height: 350px;
   margin-top: 50px;
   margin-bottom: 30px;
-  margin-right: 40px;
   border-radius: 50%;
 }
 
@@ -117,6 +116,7 @@ img {
     width: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
+    /*margin-left: 45px;*/
     border: 2px solid rgb(205, 205, 205);
   }
 }
