@@ -3,9 +3,9 @@
     <nav
       class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-st"
       :class="{
-        'bg-light': !nightMode,
+        'bg-light': nightMode,
         'navbar-blur': navbarConfig.blur,
-        'bg-dark2': nightMode,
+        'bg-dark2': !nightMode,
       }"
     >
       <div class="container">
@@ -14,7 +14,7 @@
           href="/"
           @click.prevent="$emit('scroll', 'home')"
         >
-          <Logo :nightMode="nightMode" />
+          <Logo :nightMode="!nightMode" />
         </a>
         <button
           class="navbar-toggler"
@@ -37,7 +37,7 @@
                 class="nav-link"
                 href="/about"
                 @click.prevent="$emit('scroll', 'about')"
-                :class="{ 'text-light': nightMode }"
+                :class="{ 'text-light': !nightMode }"
                 >About</a
               >
             </li>
@@ -46,7 +46,7 @@
                 class="nav-link"
                 href="/skills"
                 @click.prevent="$emit('scroll', 'skills')"
-                :class="{ 'text-light': nightMode }"
+                :class="{ 'text-light': !nightMode }"
                 >Skills</a
               >
             </li>
@@ -55,7 +55,7 @@
                 class="nav-link"
                 href="/portfolio"
                 @click.prevent="$emit('scroll', 'portfolio')"
-                :class="{ 'text-light': nightMode }"
+                :class="{ 'text-light': !nightMode }"
                 >Portfolio</a
               >
             </li>
@@ -64,7 +64,7 @@
                 class="nav-link"
                 href="/contact"
                 @click.prevent="$emit('scroll', 'contact')"
-                :class="{ 'text-light': nightMode }"
+                :class="{ 'text-light': !nightMode }"
                 >Contact</a
               >
             </li>

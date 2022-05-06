@@ -1,5 +1,10 @@
 <template>
-  <div class="bg-secondary">
+  <div class="bg-secondary" 
+  :class="{
+      'bg-light': !nightMode,
+      'bg-dark2': !nightMode,
+      'text-light': nightMode,
+    }">
     <div class="container py-3">
       <div class="row pt-1 align-items-center">
         <div

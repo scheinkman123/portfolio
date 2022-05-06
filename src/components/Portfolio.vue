@@ -2,9 +2,9 @@
   <div
     class="py-4 p-st"
     :class="{
-      'bg-light': !nightMode,
-      'bg-dark2': nightMode,
-      'text-light': nightMode,
+      'bg-light': nightMode,
+      'bg-dark2': !nightMode,
+      'text-light': !nightMode,
     }"
   >
     <div class="container">
@@ -16,16 +16,16 @@
       >
         <span
           class="title text-center"
-          :class="{ pgray: !nightMode, 'text-light': nightMode }"
+          :class="{ pgray: !nightMode, 'text-light': !nightMode }"
           >Portfolio.</span
         >
       </div>
       <hr
         width="50%"
-        :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
+        :class="{ pgray: !nightMode, 'bg-secondary': !nightMode }"
       />
 
-      <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
+      <vue-tabs :activeTextColor="nightMode ? '#535A5E' : '#dfdfdf'">
       <v-tab title="design">
           <div class="row">
             <div

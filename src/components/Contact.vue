@@ -2,9 +2,9 @@
   <div
     class="py-4 p-st"
     :class="{
-      'bg-light': !nightMode,
+      'bg-light': nightMode,
       'bg-dark2': nightMode,
-      'text-light': nightMode,
+      'text-light': !nightMode,
     }"
   >
     <div class="container">
@@ -22,7 +22,7 @@
       </div>
       <hr
         width="50%"
-        :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
+        :class="{ pgray: !nightMode, 'bg-secondary': !nightMode }"
       />
       <br />
       <div class="text-center">
