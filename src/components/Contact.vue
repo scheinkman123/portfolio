@@ -148,7 +148,7 @@ export default {
     sendEmail() {
       if (!this.email || !this.name || !this.text) {
         this.showSnackbar = true;
-        this.snackbarMessage = "Please all the fields";
+        this.snackbarMessage = "Please, all the fields 😉";
         this.snackbarColor = "#64808E";
       } else {
         var obj = {
