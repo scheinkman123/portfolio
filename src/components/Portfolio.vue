@@ -60,7 +60,7 @@
                     class="badge mr-2 mb-2"
                     v-for="tech in design.technologies"
                     :key="tech"
-                    :class="{ 'bg-dark4': nightMode }"
+                    :class="{ 'bg-dark4': !nightMode }"
                     >{{ tech }}</span
                   >
                   •
@@ -92,7 +92,7 @@
                 :portfolio="portfolio"
                 @show="showModalFn"
                 data-aos="fade-up"
-                :nightMode="nightMode"
+                :nightMode="!nightMode"
                 data-aos-offset="100"
                 data-aos-delay="10"
                 data-aos-duration="500"
