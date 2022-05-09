@@ -30,7 +30,7 @@
           <p
             class="title3 m-0 pb-2 pheight pt-1"
             v-html="
-              portfolio.description.length > 100
+              portfolio.description.length > 120
                 ? portfolio.description.substring(0, 105) + '...'
                 : portfolio.description
             "
@@ -45,14 +45,14 @@
           >
             read more
           </button> -->
-          <!-- <button
+          <button
             href="#"
             class="btn-sm btn btn-outline-secondary no-outline ml-4"
             v-if="portfolio.visit"
             @click.prevent="open(portfolio.visit)"
           >
             visit website
-          </button> -->
+          </button>
         </div>
       </div>
     </div>
@@ -71,8 +71,8 @@ export default {
     },
   },
   methods: {
-    open(url) {
-      window.open(url, "_blank");
+    open() {
+      window.open(this.portfolio.github, "_blank");
     },
     showModal() {
       this.$emit("show", this.portfolio);

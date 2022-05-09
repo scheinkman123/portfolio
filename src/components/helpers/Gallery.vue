@@ -73,9 +73,9 @@ export default {
 
 <style scoped>
 .prow {
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0 4px;
 }
@@ -96,7 +96,8 @@ export default {
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* makes the two columns stack on top of each other 
+instead of next to each other */
 @media screen and (max-width: 600px) {
   .pcolumn {
     -ms-flex: 100%;
@@ -121,8 +122,8 @@ export default {
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
+  width: 100%; 
+  height: 100%; 
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */

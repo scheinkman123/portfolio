@@ -210,7 +210,7 @@ let info = {
       technologies: ["HTML5", "CSS3", "Bootstrap"],
       category: "Web App",
       date: "Mar, 2021 - May, 2021",
-      github: "#",
+      github: "https://scheinkman123.github.io/Kicker/",
       visit: "#",
       description:
         " Web blog for new-parents. Basic web layout based on HTML and CSS with flexbox and mobile-first approach"
@@ -228,28 +228,40 @@ let info = {
       technologies: ["HTML", "CSS", "JavaSript"],
       category: "Web App",
       date: "Apr, 2021 - May, 2021",
-      github: "#",
+      github: "https://scheinkman123.github.io/Mongoose/",
       visit: "#",
       description:
         "Immitation of the Javascript library for object modeling."
     },
     {
-      name: "MyFlix movies",
+      name: "Fotobook",
       pictures: [
         {
-          img: require("./src/assets/portfolio/myflix.com/1.png")
-        },
-        {
-          img: require("./src/assets/portfolio/myflix.com/2.png")
+          img: require("./src/assets/portfolio/fotobook/fotobook1.png")
         },
       ],
-      technologies: ["react", "css", "TMDB", "JQuery", "PHP", "MySQL"],
+      technologies: ["Javascript", "Animate.CSS", "Google Maps API"],
       category: "Web App",
       date: "Apr, 2021 - May, 2021",
-      github: "#",
+      github: "https://scheinkman123.github.io/fotobook/",
       visit: "#",
       description:
-        " flix Movies is a netflix clone using React JS and TMDB with courusal and search engine. "
+        "Photographers and designers catalog website based on HTML with multiple Javascript features (i.e login popup)"
+    },
+    {
+      name: "1st portfolio",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/portfolio-html/portf1.png")
+        },
+      ],
+      technologies: ["HTML", "CSS", "Bootstrap", "Git", "Github"],
+      category: "Web App",
+      date: "May, 2021 - Jun, 2021",
+      github: "https://scheinkman123.github.io/portfolio-html/",
+      visit: "#",
+      description:
+        "Previous version of a personal portfolio website based on HTML with free layout design"
     },
   ],
 };
