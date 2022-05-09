@@ -213,7 +213,7 @@ let info = {
       github: "https://scheinkman123.github.io/Kicker/",
       visit: "#",
       description:
-        " Web blog for new-parents. Basic web layout based on HTML and CSS with flexbox and mobile-first approach"
+        "Web blog for new-parents. Basic web layout based on HTML and CSS with flexbox and mobile-first approach"
     },
     {
       name: "Mongoose DB App",
