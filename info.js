@@ -45,7 +45,7 @@ let info = {
       name: "Web developer",
       place: "CEPI BASE SL",
       date: "May 2021 - Mar 2022",
-      position: "Intern Web developer",
+      position: "Intern Web Developer",
       description:
         "",
       skills: ["HTML5", "CSS3", "Bootstrap", "Javascript ES6", "Animate.css", "NodeJs", "webpack", "npm", "VueJs", "Git", "Github", "FTP"]
