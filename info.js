@@ -11,7 +11,7 @@ let info = {
   description:
     "<br>I’m Matias and I am a front-end developer.<br>Studied sound engineering, musical production and now I design & develop smart and goodlooking front-end applications.<br><br> I am creative, proactive and restless.<br>Beach lover 🏖️, cooking enthusiast 👨‍🍳 and sport amateur 🏃<br><br>My stack core is composed by HTML5, CSS3 and JavaScript. But I also use some of the main frameworks and libraries such as Bootstrap, Vue.js.",
   links: {
-    linkedin: "https://www.linkedin.com/in/matias-scheinkman-751a5267/?locale=en_US",
+    linkedin: "https://www.linkedin.com/in/matias-scheinkman",
     github: "https://github.com/scheinkman123",
     resume: "https://scheinkman123.github.io/portfolio-html/archives/cv-matias.pdf",
   },
@@ -33,35 +33,35 @@ let info = {
   ],
   experience: [
     {
-      name: "Frontend Developer",
-      place: "CEPI BASE SL",
-      date: "May 2021 - Mar 2022",
-      position: "VueJS Developer",
+      name: "Web Developer",
+      place: "Benmayor",
+      date: "Jun 2022 - present",
+      position: "Web Developer - Marketing Team",
       description:
       "",
-      skills: ["Javascript", "ReactJS", "webpack", "NPM", "VueJS", "Git", "Github"]
+      skills: ["Javascript", "PHP", "HTML", "CSS", "Wordpress", "Prestashop", "SQL", "Git", "Github", "Hubspot"]
     },
     {
       name: "Web developer",
       place: "CEPI BASE SL",
-      date: "Dec 2020 - May 2021",
-      position: "Web developer",
+      date: "May 2021 - Mar 2022",
+      position: "Intern Web developer",
       description:
         "",
-      skills: ["HTML5", "CSS3", "Bootstrap", "Javascript", "Animate.css", "ES6", "Netbeans IDE"]
+      skills: ["HTML5", "CSS3", "Bootstrap", "Javascript ES6", "Animate.css", "NodeJs", "webpack", "npm", "VueJs", "Git", "Github", "FTP"]
     },
   ],
   skills: [
     {
       title: "Languages",
       info: [
-        "Javascript", "Python", "C++", "C#"],
+        "Javascript", "Python", "PHP", "SQL"],
       icon: "fa fa-code"
     },
     {
       title: "Frontend",
       info: [
-        "HTML5", "CSS3", "Bootstrap3", "Es6"],
+        "HTML", "CSS", "Bootstrap", ],
       icon: "fa fa-cubes"
     },
     {
@@ -197,6 +197,96 @@ let info = {
     },
   ],
   portfolio: [
+    {
+      name: "Benmayor",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/benmayor/benmayor.png")
+        },
+      ],
+      technologies: ["Prestashop", "PHP", "SQL", "Javascript", "HTML", "CSS", "3rd-Party Modules"],
+      category: "",
+      date: "",
+      github: "https://www.benmayor.com",
+      visit: "#",
+      description:
+        "Prestashop based eCommerce. Dedicated to jewelry industry, sell and provide technical service to both distributors and end customers. "
+    },
+    {
+      name: "Jewelry Benmayor",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/benmayor/jewelry.png")
+        },
+      ],
+      technologies: ["Prestashop", "PHP", "SQL", "Javascript", "HTML", "CSS", "3rd-Party Modules"],
+      category: "",
+      date: "",
+      github: "https://jewelry.benmayor.com",
+      visit: "#",
+      description:
+        "Prestashop based eCommerce. Dedicated to jewelry industry, sell and provide technical service to both distributors and end customers. "
+    },
+    {
+      name: "Flint Floor",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/benmayor/flint.png")
+        },
+      ],
+      technologies: ["Prestashop", "PHP", "SQL", "Javascript", "HTML", "CSS", "3rd-Party Modules"],
+      category: "",
+      date: "",
+      github: "https://www.flintfloor.com",
+      visit: "#",
+      description:
+        "Prestashop based eCommerce. Dedicated to jewelry industry, sell and provide technical service to both distributors and end customers. "
+    },
+    {
+      name: "Aismalibar",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/benmayor/aismalibar.png")
+        },
+      ],
+      technologies: ["Prestashop", "PHP", "SQL", "Javascript", "HTML", "CSS", "3rd-Party Modules"],
+      category: "",
+      date: "",
+      github: "https://www.aismalibar.com",
+      visit: "#",
+      description:
+        "Prestashop based eCommerce. Dedicated to jewelry industry, sell and provide technical service to both distributors and end customers. "
+    },
+    {
+      name: "Dental Benmayor",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/benmayor/dental.png")
+        },
+      ],
+      technologies: ["Prestashop", "PHP", "SQL", "Javascript", "HTML", "CSS", "3rd-Party Modules"],
+      category: "",
+      date: "",
+      github: "https://dental.benmayor.com",
+      visit: "#",
+      description:
+        "Prestashop based eCommerce. Dedicated to jewelry industry, sell and provide technical service to both distributors and end customers. "
+    },
+    {
+      name: "Techno System",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/benmayor/technosystem.png")
+        },
+      ],
+      technologies: ["Prestashop", "PHP", "SQL", "Javascript", "HTML", "CSS", "3rd-Party Modules"],
+      category: "",
+      date: "",
+      github: "https://www.techno-system.es",
+      visit: "#",
+      description:
+        "Prestashop based eCommerce. Dedicated to jewelry industry, sell and provide technical service to both distributors and end customers. "
+    },
     {
       name: "Kicker",
       pictures: [
