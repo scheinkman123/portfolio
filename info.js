@@ -13,7 +13,7 @@ let info = {
   links: {
     linkedin: "https://www.linkedin.com/in/matias-scheinkman",
     github: "https://github.com/scheinkman123",
-    resume: "https://scheinkman123.github.io/portfolio-html/archives/cv-matias.pdf",
+    resume: "https://scheinkman123.github.io/portfolio/src/assets/pdfs/cv2022oct.pdf",
   },
   education: [
     {
@@ -39,7 +39,7 @@ let info = {
       position: "Web Developer - Marketing Team",
       description:
       "",
-      skills: ["Javascript", "PHP", "HTML", "CSS", "Wordpress", "Prestashop", "SQL", "Git", "Github", "Hubspot"]
+      skills: ["Javascript", "PHP", "HTML", "CSS", "Wordpress", "Elementor", "Prestashop", "SQL", "Git", "Github", "Hubspot"]
     },
     {
       name: "Web developer",
@@ -55,7 +55,7 @@ let info = {
     {
       title: "Languages",
       info: [
-        "Javascript", "Python", "PHP", "SQL"],
+        "Javascript", "PHP", "SQL"],
       icon: "fa fa-code"
     },
     {
@@ -66,7 +66,7 @@ let info = {
     },
     {
       title: "Web Technologies",
-      info: ["VueJS", "ReactJS"],
+      info: ["VueJS", "ReactJS", "Wordpress", "Prestashop"],
       icon: "fas fa-laptop-code"
     },
   ],
