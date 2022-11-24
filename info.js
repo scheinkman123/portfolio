@@ -39,7 +39,7 @@ let info = {
       position: "Web Developer - Marketing Team",
       description:
       "",
-      skills: ["Javascript", "PHP", "HTML", "CSS", "Wordpress", "Elementor", "Prestashop", "SQL", "Git", "Github", "Hubspot"]
+      skills: ["Javascript", "PHP", "HTML", "CSS", "Wordpress", "Elementor", "Prestashop", "SQL", "Git", "Github", "Hubspot", "Xampp"]
     },
     {
       name: "Web developer",
