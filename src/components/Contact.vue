@@ -163,7 +163,7 @@ export default {
             config.emailjs.serviceID,
             config.emailjs.templateID,
             obj,
-            config.emailjs.userID
+            config.emailjs.publicKey
           )
           .then(
             (result) => {
