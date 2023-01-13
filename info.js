@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "<br>I’m Matias and I am a front-end developer.<br>Studied sound engineering, musical production and now I design & develop smart and goodlooking front-end applications.<br><br> I am creative, proactive and restless.<br>Beach lover 🏖️, cooking enthusiast 👨‍🍳 and sport amateur 🏃<br><br>My stack core is composed by HTML5, CSS3 and JavaScript. But I also use some of the main frameworks and libraries such as Bootstrap, Vue.js.",
+    "A home-awarded frontend developer from Corrientes 🧉 (Argentina) currently living in the sunny Barcelona 🌞.<br>I've worked with music and different people for many years and that's why now, I choose websites..<br>I collaborate with the marketing team of my current company to develop, maintain and anhance a variety of different websites in an industrial market and some e-commerces for a wide-profile range of clients while we give them the best web experience.<br>I have created (and screwed) many start-up companies, lived in more than 6 different sities, speake 5 different languages, played in many bands, learned to code after my 30's, travelled by car, bus, at the sit of my lovely bike, backpacked, camped, cooked, hicked and runned.... I guess I like to stay active.<br>I have 2 years of experience as a developer and I love playing/working with Javascript and some of its top frameworks to make HTML and CSS alive! 🧟‍♂️",
   links: {
     linkedin: "https://www.linkedin.com/in/matias-scheinkman",
     github: "https://github.com/scheinkman123",

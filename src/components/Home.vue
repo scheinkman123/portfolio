@@ -10,14 +10,14 @@
       data-aos-duration="1000"
     >
       <div class="row align-items-center">
-        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
+        <div class="col-xl-4 col-bg-6 col-md-6 col-sm-12 pb-5 pr-5 text-center">
           <img :src="picture"/>
         </div>
-        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-5">
+        <div class="col-xl-8 col-bg-6 col-md-6 col-sm-12 pt-5 pl-5">
           <span
             class="home-title"
             :class="{ pgray: !nightMode, 'text-light': nightMode }"
-            >Welcome to my portfolio!</span
+            >Cheers, I am Matias 🙋🏻‍♂️</span
           >
           <div>
             <p v-html="description"></p>
@@ -114,10 +114,18 @@ img {
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    /*margin-left: 45px;*/
+    margin-bottom: 5px;
+    align-self: center;
     border: 2px solid rgb(205, 205, 205);
+  }
+  p {
+    font-weight: 400;
+    letter-spacing: inherit;
+    font-size: 0.80rem; 
+    line-height: 1rem;
+  }
+  .home-title {
+    font-size: 28px;
   }
 }
 
@@ -147,8 +155,10 @@ img {
 }
 
 p {
-  text-align: justify;
+  text-align: left;
   font-weight: 400;
+  letter-spacing: 0.06em;
+  line-height: 1.9em;
 }
 
 /* leaves */

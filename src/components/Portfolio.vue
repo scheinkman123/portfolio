@@ -95,7 +95,7 @@
                   <span class="date ml-1">{{design.date}}</span>
                 </div>
 
-                <!-- Comment the button after test -->
+
                   <button
                   style="height: 31px; margin-top: 5px;"
                   class="btn-sm btn btn-outline-secondary no-outline"

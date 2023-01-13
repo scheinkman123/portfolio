@@ -1,6 +1,6 @@
 <template>
   <div
-    class="py-4 p-st"
+    class="py-5 p-st"
     :class="{
       'bg-light': !nightMode,
       'bg-dark2': !nightMode,
