@@ -20,16 +20,16 @@
             >Cheers, I am Matias 🙋🏻‍♂️</span
           >
           <div>
-            <p>"A home-awarded frontend developer from Corrientes 🧉 (Argentina) currently living in the sunny Barcelona 🌞.
-    <br>I've worked with music and different people for many years and that's why now, I choose websites..
-    <br>I collaborate with the marketing team of the current company I work for to develop, maintain and anhance a variety of websites in an industrial market and some 
-    e-commerces for a wide customer profile while we give them the best web experience.
-    <br>Created (and screwed) many start-up companies, lived in more than 6 different cities, speak 5 different languages, played music for many bands, 
-    learned how to code after my 30's, travelled by <span class='text1'>car</span>, <span class='text2'>bus</span>, <span class='text3'>at the sit of my lovely bike</span>, 
-    <span class='text4'>backpacked</span>, <span class='text5'>camped</span>, <span class='text6'>cooked</span>, <span class='text7'>hicked</span> and 
-    <span class='text8'>runned</span>.... 
-    I guess I like to stay active.
-    <br>I have 2 years of experience as a developer and I love playing/working with Javascript and some of its top frameworks to make HTML and CSS alive! 🧟‍♂️"</p>
+            <p>A home-awarded frontend developer from Corrientes <span class="emoji">🧉</span> (Argentina) currently living in the sunny Barcelona <span class="emoji">🌞</span>.
+            <br>I've worked with music and different people for many years and that's why now, I choose websites..
+            <br>I collaborate with the marketing team of the current company I work for to develop, maintain and anhance a variety of websites in an industrial market and some 
+            e-commerces for a wide customer profile while we give them the best web experience.
+            <br>Created (and screwed) many start-up companies, lived in more than 6 different cities, speak 5 different languages, played music for many bands, 
+            learned how to code after my 30's, travelled by <span class='increase1'>car</span>, <span class='increase2'>bus</span>, <span class='increase3'>at the sit of my lovely bike</span>, 
+            <span class='increase4'>backpacked</span>, <span class='increase5'>camped</span>, <span class='increase6'>cooked</span>, <span class='increase7'>hicked</span> and 
+            <span class='increase8'>runned</span>.... 
+            I guess I like to stay active.
+            <br>I have 2 years of experience as a developer and I love playing/working with Javascript and some of its top frameworks to make HTML and CSS alive! <span class="emoji">🧟‍♂️</span></p>
           </div>
           <div class="text-center m-2 pb-4">
             <button
@@ -170,29 +170,41 @@ p {
   line-height: 1.9em;
 }
 
-.text1 {
-  font-size: 1.3rem;
-}
-.text2 {
-  font-size: 1.35rem;
-}
-.text3 {
+.emoji {
   font-size: 1.4rem;
 }
-.text4 {
-  font-size: 1.45rem;
+
+.increase1 {
+  font-size: 1.25rem;
+  letter-spacing: 0.04em;
 }
-.text5 {
-  font-size: 1.5rem;
+.increase2 {
+  font-size: 1.4rem;
+  letter-spacing: 0.04em;
 }
-.text6 {
-  font-size: 1.55rem;
+.increase3 {
+  font-size: 1.48rem;
+  letter-spacing: 0.04em;
 }
-.text7 {
-  font-size: 1.6rem;
+.increase4 {
+  font-size: 1.57rem;
+  letter-spacing: 0.04em;
 }
-.text8 {
-  font-size: 1.65rem;
+.increase5 {
+  font-size: 1.64rem;
+  letter-spacing: 0.04em;
+}
+.increase6 {
+  font-size: 1.71rem;
+  letter-spacing: 0.04em;
+}
+.increase7 {
+  font-size: 1.79rem;
+  letter-spacing: 0.04em;
+}
+.increase8 {
+  font-size: 1.87rem;
+  letter-spacing: 0.04em;
 }
 /* leaves */
 </style>
