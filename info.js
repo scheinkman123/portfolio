@@ -162,7 +162,7 @@ let info = {
           title: "just for you"
         }
       ],
-      technologies: ["Figma", "Photoshop"],
+      technologies: ["Figma"],
       category: "Visual Design",
       github: "",
       date: "Nov, 2021",
@@ -187,7 +187,7 @@ let info = {
           title: "Mockups 2"
         }
       ],
-      technologies: ["XD", "Illustrator"],
+      technologies: ["XD"],
       category: "Visual Design",
       github: "",
       date: "Apr, 2021",
@@ -204,13 +204,13 @@ let info = {
           img: require("./src/assets/portfolio/benmayor/benmayor.png")
         },
       ],
-      technologies: ["Prestashop", "PHP", "SQL", "Javascript", "HTML", "CSS", "3rd-Party Modules"],
+      technologies: ["Wordpress", "Elementor", "PHP", "SQL", "Javascript", "HTML", "CSS", "3rd-Party Modules"],
       category: "",
       date: "",
       github: "https://www.benmayor.com",
       visit: "#",
       description:
-        "Prestashop based eCommerce. Dedicated to jewelry industry, sell and provide technical service to both distributors and end customers. "
+        "Corporate website of industrial business group"
     },
     {
       name: "Jewelry Benmayor",
@@ -240,7 +240,7 @@ let info = {
       github: "https://www.flintfloor.com",
       visit: "#",
       description:
-        "Prestashop based eCommerce. Dedicated to jewelry industry, sell and provide technical service to both distributors and end customers. "
+        "Manufacturer of laminates for floors, walls, ceilings resistant to water and shocks for restaurants, hospitality  and housing."
     },
     {
       name: "Aismalibar",
@@ -249,13 +249,13 @@ let info = {
           img: require("./src/assets/portfolio/benmayor/aismalibar.png")
         },
       ],
-      technologies: ["Prestashop", "PHP", "SQL", "Javascript", "HTML", "CSS", "3rd-Party Modules"],
+      technologies: ["Wordpress", "PHP", "SQL", "Javascript", "HTML", "CSS", "3rd-Party Modules"],
       category: "",
       date: "",
       github: "https://www.aismalibar.com",
       visit: "#",
       description:
-        "Prestashop based eCommerce. Dedicated to jewelry industry, sell and provide technical service to both distributors and end customers. "
+        "Aismalibar has been manufacturing high-end Metal Clad Laminates for the printed circuit board industry for more than 60 years. Over the last two decades, AISMALIBAR has focused on providing the best solutions to reduce the operating temperature of printed circuit boards (PCBs). "
     },
     {
       name: "Dental Benmayor",
@@ -270,7 +270,7 @@ let info = {
       github: "https://dental.benmayor.com",
       visit: "#",
       description:
-        "Prestashop based eCommerce. Dedicated to jewelry industry, sell and provide technical service to both distributors and end customers. "
+        "Prestashop based eCommerce. Dedicated to Dental industry, sell and provide technical service for distribuitors."
     },
     {
       name: "Techno System",
@@ -285,7 +285,7 @@ let info = {
       github: "https://www.techno-system.es",
       visit: "#",
       description:
-        "Prestashop based eCommerce. Dedicated to jewelry industry, sell and provide technical service to both distributors and end customers. "
+        "Industrial automation: The most advanced form of integration, with robotic arms and seamlessly connected to peripheral systems through robotization."
     },
     {
       name: "Kicker",
