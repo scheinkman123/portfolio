@@ -9,7 +9,14 @@ let info = {
     }
   },
   description:
-    "A home-awarded frontend developer from Corrientes 🧉 (Argentina) currently living in the sunny Barcelona 🌞.<br>I've worked with music and different people for many years and that's why now, I choose websites..<br>I collaborate with the marketing team of the current company I work for to develop, maintain and anhance a variety of websites in an industrial market and some e-commerces for a wide customer profile while we give them the best web experience.<br>Created (and screwed) many start-up companies, lived in more than 6 different cities, speak 5 different languages, played music for many bands, learned how to code after my 30's, travelled by car, bus, at the sit of my lovely bike, backpacked, camped, cooked, hicked and runned.... I guess I like to stay active.<br>I have 2 years of experience as a developer and I love playing/working with Javascript and some of its top frameworks to make HTML and CSS alive! 🧟‍♂️",
+    "A home-awarded frontend developer from Corrientes 🧉 (Argentina) currently living in the sunny Barcelona 🌞.\
+    <br>I've worked with music and different people for many years and that's why now, I choose websites..\
+    <br>I collaborate with the marketing team of the current company I work for to develop, maintain and anhance a variety of websites in an industrial market and some \
+    e-commerces for a wide customer profile while we give them the best web experience.\
+    <br>Created (and screwed) many start-up companies, lived in more than 6 different cities, speak 5 different languages, played music for many bands, \
+    learned how to code after my 30's, travelled by car, bus, at the sit of my lovely bike, backpacked, camped, cooked, hicked and runned.... \
+    I guess I like to stay active.\
+    <br>I have 2 years of experience as a developer and I love playing/working with Javascript and some of its top frameworks to make HTML and CSS alive! 🧟‍♂️",
   links: {
     linkedin: "https://www.linkedin.com/in/matias-scheinkman",
     github: "https://github.com/scheinkman123",
@@ -204,7 +211,7 @@ let info = {
           img: require("./src/assets/portfolio/benmayor/benmayor.png")
         },
       ],
-      technologies: ["Wordpress", "Elementor", "PHP", "SQL", "Javascript", "HTML", "CSS", "3rd-Party Modules"],
+      technologies: ["Wordpress", "Elementor", "PHP", "SQL", "Javascript", "HTML", "CSS"],
       category: "",
       date: "",
       github: "https://www.benmayor.com",
@@ -321,7 +328,7 @@ let info = {
       github: "https://scheinkman123.github.io/Mongoose/",
       visit: "#",
       description:
-        "Immitation of the Javascript library for object modeling."
+        "Immitation of the Javascript library for data modeling."
     },
     {
       name: "Fotobook",
