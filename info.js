@@ -20,13 +20,13 @@ let info = {
   links: {
     linkedin: "https://www.linkedin.com/in/matias-scheinkman",
     github: "https://github.com/scheinkman123",
-    resume: "https://scheinkman123.github.io/portfolio/src/assets/pdfs/cv2022oct.pdf",
+    resume: "https://scheinkman123.github.io/portfolio/src/assets/pdfs/cv2023feb.pdf",
   },
   education: [
     {
       name: "Web development",
       place: "CEPI BASE SL",
-      date: "sep, 2020 - mar, 2022",
+      date: "sep, 2020 - dec, 2021",
       degree: "Web Aplications Developer",
       description:
         "",
@@ -42,7 +42,7 @@ let info = {
     {
       name: "Web Developer",
       place: "Benmayor",
-      date: "Jun 2022 - present",
+      date: "Feb 2022 - present",
       position: "Web Developer - Marketing Team",
       description:
       "",
