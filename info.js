@@ -42,7 +42,7 @@ let info = {
     {
       name: "Web Developer",
       place: "Benmayor",
-      date: "Feb 2022 - present",
+      date: "feb 2022 - present",
       position: "Web Developer - Marketing Team",
       description:
       "",
@@ -51,7 +51,7 @@ let info = {
     {
       name: "Web developer",
       place: "CEPI BASE SL",
-      date: "May 2021 - Mar 2022",
+      date: "may 2021 - dec 2021",
       position: "Intern Web Developer",
       description:
         "",
